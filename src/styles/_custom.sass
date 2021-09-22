@@ -98,20 +98,66 @@
       left: 0
       right: 50%
 
+//slider con fondo//
+.tarjeta-fondo
+  background-image: url(../assets/curso/fondo-banner.png)
+  background-size: cover
+  background-repeat: no-repeat
+
+.cajon-b.abajo-derecha
+  &.ajustado
+    &:before
+      bottom: -10px
+      top: 0%
+      left: 5%
+.cajon-b.abajo-derecha:before 
+  left: 26%
+.cajon-b:before 
+  right: 25%
+
+.slyder-a__bullets 
+  bottom: -10px
+.slyder-a__btn--atrs
+  left: -26px
+.slyder-a__btn--sigt 
+  right: -24px
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  opacity: 0.4
+
+//FIN  slider con fondo//
   
   
 //Ajuste de tamaño para imagenes
 .imagen-custom1
   width: 405px
+.imagen-custom2
+  width: 218px
+.imagen-custom3
+  width: 460px
+.imagen-custom4
+  width: 220px
 
 // FIN Ajuste de tamaño para imagenes
 
 
 
 
+
+@media screen and ( min-width: 1000px)
+  .imagen-custom2
+    width: 200px
+  .cajon-tarjeta
+    transform: translateY(-10%) translateX(70%)
+    // width: 566px
+
+@media screen and ( min-width: 1400px)
+  .cajon-tarjeta
+    transform: translateY(-20%) translateX(110%)
+
 @media screen and ( max-width: 576px) 
   .fondo-custom1, .fondo-custom2
-    margin-inline: 1.4rem
+    //margin-inline: 1.4rem
+    margin-inline: 0rem
 
 @media screen and ( max-width: 988px) 
   .bg-color2,.bg-color3, .bg-color4
@@ -121,5 +167,7 @@
     position: relative
     width: auto
     transform: translateY(0) translateX(0)
-  .imagen-custom1
+  .imagen-custom1, .imagen-custom3
     width: 300px
+  .imagen-custom4
+    width: 130px
