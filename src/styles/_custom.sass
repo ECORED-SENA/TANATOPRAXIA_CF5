@@ -136,10 +136,121 @@
   width: 460px
 .imagen-custom4
   width: 220px
+.imagen-custom5
+  width: 490px
 
 // FIN Ajuste de tamaño para imagenes
 
+.color-texto
+  color: #12263F
 
+/////////////////HOVERRRRR TARJETAS LARGAS//////////////////////
+.tarjeta-oscura
+  background: linear-gradient(180deg,#f5f5f5,#E7EDED)
+  .tarjetaContent2
+    .tarjetaImg2
+      border-top: 7px solid #1D272B
+    .tarjetaTxt2
+      border-top: 7px solid #1D272B
+    .tarjetaTxt3
+      border-top: 7px solid #1D272B
+
+.tarjeta-verde
+  background: linear-gradient(180deg,#f5f5f5,#E7EDED)
+  .tarjetaContent2
+    .tarjetaImg2
+      border-top: 7px solid #008F85
+    .tarjetaTxt2
+      border-top: 7px solid #008F85
+    .tarjetaTxt3
+      border-top: 7px solid #008F85
+
+
+$tarjeta-dimension-weight2: 238px
+$tarjeta-dimension-height2: 450px
+
+.tarjeta-container2
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension-weight2
+  height: $tarjeta-dimension-height2
+  border-radius: 0    
+  
+  .tarjetaContent2
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease
+    .tarjetaImg2
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      width: $tarjeta-dimension-weight2
+      height: $tarjeta-dimension-height2
+      padding: 2rem
+      text-align: center
+    .tarjetaTxt2 
+      display: flex
+      flex-direction: column
+      justify-content: start
+      align-items: start          
+      width: $tarjeta-dimension-weight2
+      height: $tarjeta-dimension-height2
+      padding: 0rem
+      text-align: start
+      background: url('../assets/curso/tema3/bg-gris.svg')
+      background-position: top
+      background-size: auto
+      background-repeat: no-repeat
+      
+    .tarjetaTxt3
+      display: flex
+      flex-direction: column
+      justify-content: start
+      align-items: start          
+      width: $tarjeta-dimension-weight2
+      height: $tarjeta-dimension-height2
+      padding: 0rem
+      text-align: start
+      background: url('../assets/curso/tema3/bg-verdoso.svg')
+      background-position: top
+      background-size: auto
+      background-repeat: no-repeat
+      
+    
+  
+  &:hover
+    .tarjetaContent2
+      top: -($tarjeta-dimension-height2)
+.bg-num1
+  background: url('../assets/curso/tema3/bgNum1.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+.bg-num2
+  background: url('../assets/curso/tema3/bgNum2.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+.bg-num3
+  background: url('../assets/curso/tema3/bgNum3.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+.bg-num4
+  background: url('../assets/curso/tema3/bgNum4.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+.bg-num5
+  background: url('../assets/curso/tema3/bgNum5.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+  
+
+/////////////////ENDDDDD HOVERRRRR TARJETAS LARGAS//////////////////////
 
 
 
@@ -149,8 +260,13 @@
   .cajon-tarjeta
     transform: translateY(-10%) translateX(70%)
     // width: 566px
+@media screen and ( min-width: 1200px)
+  .margen-tarjetaLarga
+    margin-inline: 2rem
 
 @media screen and ( min-width: 1400px)
+  .margen-tarjetaLarga
+    margin-inline: 0rem
   .cajon-tarjeta
     transform: translateY(-20%) translateX(110%)
 
@@ -167,7 +283,7 @@
     position: relative
     width: auto
     transform: translateY(0) translateX(0)
-  .imagen-custom1, .imagen-custom3
+  .imagen-custom1, .imagen-custom3, .imagen-custom5
     width: 300px
   .imagen-custom4
     width: 130px
