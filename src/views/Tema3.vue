@@ -50,7 +50,7 @@
               p.mb-0 #[strong Riesgo físico ]
             .tarjetaTxt3
               figure.mb-3
-                img(src="@/assets/curso/tema3/img2.jpg", alt="imagen ambiental", style="width:238px;").m-auto
+                img(src="@/assets/curso/tema3/img3.jpg", alt="imagen ambiental", style="width:238px;").m-auto
               .px-3
                 .bg-num2
                   p.mb-2 #[strong Riesgo físico ]
@@ -65,7 +65,7 @@
               p.mb-0 #[strong Riesgo biológico ]
             .tarjetaTxt2
               figure.mb-3
-                img(src="@/assets/curso/tema3/img2.jpg", alt="imagen ambiental", style="width:238px;").m-auto
+                img(src="@/assets/curso/tema3/img4.jpg", alt="imagen ambiental", style="width:238px;").m-auto
               .px-3
                 .bg-num3
                   p.mb-2 #[strong Riesgo biológico ]
@@ -80,7 +80,7 @@
               p.mb-0 #[strong Riesgo psicológico ]
             .tarjetaTxt3
               figure.mb-3
-                img(src="@/assets/curso/tema3/img2.jpg", alt="imagen ambiental", style="width:238px;").m-auto
+                img(src="@/assets/curso/tema3/img5.jpg", alt="imagen ambiental", style="width:238px;").m-auto
               .px-3
                 .bg-num4
                   p.mb-2 #[strong Riesgo psicológico ]
@@ -95,7 +95,7 @@
               p.mb-0 #[strong Riesgo ergonómico ]
             .tarjetaTxt2
               figure.mb-3
-                img(src="@/assets/curso/tema3/img2.jpg", alt="imagen ambiental", style="width:238px;").m-auto
+                img(src="@/assets/curso/tema3/img6.jpg", alt="imagen ambiental", style="width:238px;").m-auto
               .px-3
                 .bg-num5
                   p.mb-2 #[strong Riesgo ergonómico ]
@@ -103,14 +103,136 @@
                 
     
 
+    .row.justify-content-center.mb-4
+      .col-lg-7.mb-4
+        .row.justify-content-center.mb-4
+          .col-auto(style=" border-right: 4px solid #1D272B; align-self:center")
+            figure.mb-0
+              img(src="@/assets/curso/tema3/icon1.svg", alt="imagen ambiental", style="width:64px;").m-auto
+          .col.pe-4.align-self-center
+            p.mb-0 Un 
+              b(style="color: #008F85;") tanatopráctor 
+              b-none está expuesto a sucesos repentinos que sobrevienen por causa o con ocasión del trabajo. 
+        
+        .row.justify-content-center
+          .col-lg-12.mb-4
+            .cajon.color-secundario.p-4.mb-2
+              p En el contexto colombiano, su 
+                b riesgo profesional se clasifica en clase V,
+                b-none lo que significa riesgo máximo, por lo cual, tanto el empleador como el empleado tienen unas obligaciones en la cotización de su afiliación ante una 
+                b administradora de riesgos laborales (ARL). 
+                b-none Para más información, consulte el 
+                b capítulo II, riesgos profesionales, del Decreto 1295 de 1994, 
+                b-none el cual se encuentra en el material complementario.
+              a.anexo.mb-4.mb-lg-0(href="http://www.secretariasenado.gov.co/senado/basedoc/decreto_1295_1994.html" target="_blank" style="background-color:#fff;")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p.color-texto.mb-0 #[strong Enlace web.] Ministerio de Trabajo y Seguridad Social. Decreto 1295 de 1994
+      .col-lg-5.mb-4
+        figure
+          img(src="@/assets/curso/tema3/img7.jpg", alt="Riesgos profesionales", style="width:420px;").m-auto
 
+    p.mb-5 Es preciso recordar que cualquier labor que implique la manipulación de cuerpos (vivos o muertos) está expuesta a posible contacto con fluidos corporales y, por ende, a riesgos, que se pueden disminuir con los protocolos de bioseguridad y el uso de elementos de protección personal. En consecuencia, en tanatopraxia, se necesitan tener ciertas medidas cumplidas para la implementación de la bioseguridad que conlleva dicha práctica laboral. Estas son: 
 
+    .row.justify-content-center
+      .col.lg-6.mb-4
+        .tarjeta-avatar-b.mb-2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/icon2.svg' alt='AvatarTop')
+          .tarjeta.bg-line1(style='background-color: #ffff;')
+            .p-4 
+              p.mb-0 Tener conciencia de los riesgos de las acciones que se llevará a cabo.
+              
+        .tarjeta-avatar-b.mb-2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/icon3.svg' alt='AvatarTop')
+          .tarjeta.bg-line2(style="background-color:#fff;")
+            .p-4 
+              p.mb-0 Seguir los protocolos básicos y mínimos para el manejo de cuerpos sin vida.
+              
+        .tarjeta-avatar-b.mb-2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/icon4.svg' alt='AvatarTop')
+          .tarjeta.bg-line3(style="background-color:#fff;")
+            .p-4 
+              p.mb-0 Conocer y manejar los protocolos de desinfección y los agentes desinfectantes correctos.
+              
+        .tarjeta-avatar-b.mb-0
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/icon5.svg' alt='AvatarTop')
+          .tarjeta.bg-line4(style="background-color:#fff;")
+            .p-4 
+              p.mb-0 Cumplir estrictamente los protocolos de desinfección de espacios.
+              
+      .col.lg-6.mb-4.align-self-center
+        .row.justify-content-center
+          .col-auto.mb-3
+            figure
+              img(src="@/assets/curso/tema3/img8.svg", alt="iamgen ambiental", style="width:125px;").m-auto
+        .row.justify-content-center
+          .col-sm-auto.col-md-10
+            p.mb-2
+              b(style="color: #008F85;") El trabajo del embalsamador 
+              b-none siempre debe de regirse por un principio universal: 
+              b todos los cuerpos deben ser considerados como biológicamente riesgosos, 
+              b-none sin importar sexo, edad o condición social.
 
+    p.mb-4 Por este motivo, la tanatopraxia exige la utilización de elementos desechables para la manipulación de cuerpos, especialmente guantes, petos y gorros, recomendando que ninguno de estos elementos sean reutilizables. Cualquier elemento lavable o reutilizable, como el pijama antifluido, la botas o las monogafas, debe ser lavado con químicos desinfectantes.
 
+    .row.justify-content-center.mb-3
+      .col-lg-5.mb-4
+        figure
+          img.imagen-custom6(src="@/assets/curso/tema3/img9.svg", alt="iamgen ambiental", style="").m-auto
+      .col-lg-7.mb-4.align-self-center
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 Es necesario 
+            b en cuenta que no todos los detergentes ni desinfectantes son completamente efectivos; los desinfectantes más recomendados son los de uso quirúrgico.
+        p.mb-4 Todo desinfectante que contenga amonio cuaternario, soluciones de yodo, bajas concentraciones de glutaraldehído o concentraciones especializadas de ácido cítrico es, en general, apropiado para la desinfección, tanto de cuerpos como del laboratorio. Otros desinfectantes muy efectivos y de más fácil utilización son el Cidex y el Gerdex, que son de última generación y de muy rápido efecto.
+        p.mb-0 Cabe mencionar que los protocolos de bioseguridad, en el sector funerario, no se aplican únicamente al momento del embalsamiento, estos deben considerarse desde la manipulación del cuerpo en el traslado inicial hasta su traslado final. Algunas precauciones para seguir por el personal funerario son:
 
-
-
-
+    .row.justify-content-center
+      .col-lg-7.mb-4.align-self-center
+        ul.lista-ul
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Asegurar la sala de preparación, prohibiendo la entrada a personas ajenas que no cuenten con el esquema de vacunación necesaria (hepatitis b- tétano).
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Tampoco se puede fumar, beber o ingerir alimentos en esta.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Evaluar los riesgos de exposición, respetar precauciones universales, anteriormente mencionadas.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Conocer los productos que se usan, que se encuentren en el área de trabajo y debidamente etiquetados.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Prepararse para las emergencias, saber cómo encontrar y hacer funcionar duchas, estaciones de lavado de ojos y extintores de incendios.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Siempre manipular el cuerpo con guantes.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Manipular objetos afilados con cuidado y desecharlos adecuadamente.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Limitar la toxicidad y desechos generados en el laboratorio.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Saber cómo controlar las aguas residuales.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Realizar previa desinfección externa del cuerpo y sus vestiduras. En todos los casos, debería cubrir la boca y la nariz del fallecido con una gasa, un pañuelo o algodón saturado con alcohol o algún desinfectante, y el cuerpo debería ir envuelto en plástico.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Desechar adecuadamente los residuos.
+          li 
+            i.fas.fa-biohazard(style="color: #D93328;")
+            p.mb-0 Documentar su trabajo.
+      .col-lg-5.mb-4.align-self-center
+        figure
+          img.imagen-custom3(src="@/assets/curso/tema3/img10.svg", alt="iamgen ambiental", style="").m-auto
 
 
 

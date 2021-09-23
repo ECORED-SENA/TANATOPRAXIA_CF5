@@ -91,7 +91,7 @@
             i.fas.fa-file-download
 
     .row.justify-content-center.fondo-custom1
-      .col-lg-12.mt-5.px-lg-5
+      .col-lg-12.mt-5.px-md-5
 
         .row.justify-content-center.mb-4
           .col-lg-7
@@ -172,7 +172,7 @@
     p.mb-5 La siguiente infografía presenta cómo se realizaba la preservación de cadáveres en el periodo dos.
 
     .row.justify-content-center.fondo-custom2.mb-4
-      .col-lg-11.px-lg-4
+      .col-lg-11.px-md-5
         PasosA.color-primario.mb-5(tipo="n")
           .row
             .col-md-12.mb-4.mb-md-0
@@ -235,7 +235,7 @@
                 .tarjeta-avatar-b__img(style='')
                   img.mx-auto(src='@/assets/curso/tema1/img18.svg' alt='AvatarTop' style='width: 70px;')
                 
-      .col-lg-12.px-lg-5
+      .col-lg-12.px-md-5
         h4.mb-4 Periodo tres
         p.mb-5 Este periodo se caracterizó porque la preservación del cuerpo fue  con fines funerarios. El precursor de este periodo fue el Dr. Thomas Holmes, conocido como el padre de la tanatopraxia moderna.
         
@@ -422,7 +422,7 @@
           .col-md-6.mb-4.mb-md-0.align-self-center
             h4.mb-4 Sanidad e higiene
             p.mb-4 La primera consideración de la tanatopraxia tiene que ver con la higienización y limpieza, tanto del área de trabajo como del cuerpo sin vida, en general. El ambiente funerario debe ser seguro, higiénicamente hablando, por la gran cantidad de personas que interactúan alrededor del cuerpo sin vida.
-            .cajon-b.color-primario.abajo-derecha.p-lg-0.p-sm-4.mb-0
+            .cajon-b.color-primario.abajo-derecha.p-0.mb-0
               p.mb-0 La limpieza e higiene responden a la necesidad de evitar y disminuir contagios de enfermedades derivadas del contacto con cadáveres. Si se consideran todas las muertes de un área en especial, en un tiempo determinado, la acumulación resultante de los cadáveres representa un riesgo general para la salud pública. Esta consideración le da un valor a la tanatopraxia como generador de un ritual y como solución higiénica, ya que, si no existiera este proceso, solo se haría evacuación de cuerpos.
           .col-sm-6.col-md-4.align-self-center
             figure
@@ -454,7 +454,7 @@
               img.imagen-custom3.mx-auto(src='@/assets/curso/tema1/img35.jpg', alt='Relación afectuosa con el cliente')
           .col-md-6.mb-4.mb-md-0.align-self-center
             h4.mb-4 Simpatía con la muerte
-            .cajon-b.color-primario.p-3.mb-0
+            .cajon-b.color-primario.p-0.mb-0
               p.mb-0 Es la relación afectuosa que se debe generar entre el funerario y el cliente. El servicio funerario debe partir de la solidaridad de entender el dolor del otro, sin llegar al punto de afectarse negativamente.
             p.mb-4 Se debe reconocer cada duelo, partiendo de la premisa psicológica: no hay dolor como el mío, ni tristeza como la mía, nadie está en capacidad de sentir y compartir el dolor ajeno de la manera que le da el individuo. 
             p.mb-4 De este punto, se dice que la solidaridad y afectación por la muerte de alguien son necesarias para prestar un buen servicio.
@@ -463,7 +463,7 @@
           .col-md-6.mb-4.mb-md-0.align-self-center
             h4.mb-4 Eficiencia
             p.mb-4 El funerario debe ser el apoyo necesario para la familia, tanto en el despacho como en el proceso de tanatopraxia. Él tiene que ser un generador de procesos y no un obstáculo de situaciones.
-            .cajon-b.color-primario.abajo-derecha.p-3.mb-0
+            .cajon-b.color-primario.abajo-derecha.p-0.mb-0
               p.mb-0 El mayor enemigo de un funerario es la rutina, ya que obliga a despachar y atender servicios de una manera estandarizada, sin variables y sin darles la oportunidad a las familias de personalizar el servicio.
           .col-md-4.align-self-center
             figure
@@ -475,7 +475,7 @@
               img.imagen-custom3.mx-auto(src='@/assets/curso/tema1/img37.jpg', alt='Confiabilidad profesional')
           .col-md-6.mb-4.mb-md-0.align-self-center
             h4.mb-4 Confianza
-            .cajon-b.color-primario.p-3.mb-4
+            .cajon-b.color-primario.p-0.mb-4
               p.mb-0 Este valor se refiere a la confiabilidad profesional y la seriedad de los compromisos que adquiere el laboratorio. Este manejo ético del funeral orienta al embalsamador a la reservación de información tal como:
             ul.lista-ul
               li 

@@ -27,6 +27,26 @@
   background-position: left top
   margin-inline: -3.4rem
 
+.fondo-custom4
+  background-image: url(../assets/curso/tema4/fondo1.svg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: left center
+  margin-inline: -3.4rem
+
+.fondo-custom5
+  background-image: url(../assets/curso/tema4/fondo2.svg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: left center
+  margin-inline: -3.4rem
+.fondo-custom6
+  background-image: url(../assets/curso/tema4/fondo3.svg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3.4rem
+
 
 .bg-line1
   box-shadow: 0px 0px 8px 0px #DEDEDE
@@ -133,11 +153,13 @@
 .imagen-custom2
   width: 218px
 .imagen-custom3
-  width: 460px
+  width: 470px
 .imagen-custom4
   width: 220px
 .imagen-custom5
   width: 490px
+.imagen-custom6
+  width: 440px
 
 // FIN Ajuste de tamaño para imagenes
 
@@ -249,8 +271,50 @@ $tarjeta-dimension-height2: 450px
   background-size: auto
   background-repeat: no-repeat
   
-
 /////////////////ENDDDDD HOVERRRRR TARJETAS LARGAS//////////////////////
+
+.tabs-c.color-primario .tabs-c__tab--active
+  font-weight: bold
+
+.tabs-c 
+  //border-bottom: 1px solid #AFAFAF
+  border-bottom: 0
+
+.tabs-c__content-item
+  border-left: 1px solid #AFAFAF
+  border-right: 1px solid #AFAFAF
+  border-bottom: 1px solid #AFAFAF
+
+.tabs-c__header
+  margin-bottom: 0
+
+//////
+.tarjeta-white
+  background-color: #F6F6F6
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  background: url('../assets/curso/tema4/line-red.svg')
+  background-position: right
+  background-size: auto
+  background-repeat: no-repeat
+  &--color-red
+    background-color: #F6F6F6
+    box-shadow: 0px 0px 8px 0px #DEDEDE
+    background: url('../assets/curso/tema4/line-red.svg')
+    background-position: right
+    background-size: auto
+    background-repeat: no-repeat
+    
+
+.img-fondo
+  background: url('../assets/curso/tema4/img-fondo.png')
+  background-position: center
+  background-size: auto
+  background-repeat: no-repeat
+.img-fondo2
+  background: url('../assets/curso/tema4/img-fondo2.png')
+  background-position: center
+  background-size: auto
+  background-repeat: no-repeat
 
 
 
@@ -261,6 +325,10 @@ $tarjeta-dimension-height2: 450px
     transform: translateY(-10%) translateX(70%)
     // width: 566px
 @media screen and ( min-width: 1200px)
+  .llamado-pdf
+    position: absolute
+    right: 50%
+    transform: translateX(80%) translateY(-20%)
   .margen-tarjetaLarga
     margin-inline: 2rem
 
@@ -271,7 +339,7 @@ $tarjeta-dimension-height2: 450px
     transform: translateY(-20%) translateX(110%)
 
 @media screen and ( max-width: 576px) 
-  .fondo-custom1, .fondo-custom2
+  .fondo-custom1, .fondo-custom2, .fondo-custom4, .fondo-custom5, .fondo-custom6
     //margin-inline: 1.4rem
     margin-inline: 0rem
 
@@ -283,7 +351,7 @@ $tarjeta-dimension-height2: 450px
     position: relative
     width: auto
     transform: translateY(0) translateX(0)
-  .imagen-custom1, .imagen-custom3, .imagen-custom5
+  .imagen-custom1, .imagen-custom3, .imagen-custom5, .imagen-custom6
     width: 300px
   .imagen-custom4
     width: 130px
