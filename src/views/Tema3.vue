@@ -118,7 +118,7 @@
           .col-lg-12.mb-4
             .cajon.color-secundario.p-4.mb-2
               p En el contexto colombiano, su 
-                b riesgo profesional se clasifica en clase V,
+                b riesgo profesional se clasifica en clase V, 
                 b-none lo que significa riesgo máximo, por lo cual, tanto el empleador como el empleado tienen unas obligaciones en la cotización de su afiliación ante una 
                 b administradora de riesgos laborales (ARL). 
                 b-none Para más información, consulte el 
@@ -234,7 +234,7 @@
         figure
           img.imagen-custom3(src="@/assets/curso/tema3/img10.svg", alt="iamgen ambiental", style="").m-auto
 
-
+    p.mb-4 Finalmente, se sugiere que identifique los protocolos de bioseguridad de su entorno laboral durante su práctica. Si reconoce los mencionados anteriormente, pueden ayudarle a garantizar que el potencial riesgo de contagio por exposición a un cuerpo fallecido sea el mínimo.
 
 
 </template>

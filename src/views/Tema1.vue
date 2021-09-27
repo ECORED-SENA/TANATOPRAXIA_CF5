@@ -13,14 +13,14 @@
           img.mx-auto(src='@/assets/curso/tema1/img1.jpg', alt='Proceso de embalsamamiento', style='width:420px;')
       .col
         p.mb-4
-          b El embalsamamiento es un proceso que se ha practicado en todo el mundo,
+          b El embalsamamiento es un proceso que se ha practicado en todo el mundo, 
           b-none usando diferentes formas y métodos a lo largo de gran parte de la historia, considerándose una de las artes de mayor antigüedad practicada por los hombres.
-          b  En todas las culturas del mundo se preocupan por el cuidado de sus fallecidos,
+          b  En todas las culturas del mundo se preocupan por el cuidado de sus fallecidos, 
           b-none implementando sus propios rituales de despedida, los cuales van acompañados de música, arte, danza y literatura.
         .cajon.color-secundario.p-4
           p.mb-0 
-            b A continuación, se realizará una aproximación a algunos eventos históricos abordados por Mayer (2006)
-            b-none e interpretados en el presente componente formativo. Se recomienda leer atentamente la información donde se pueden identificar las prácticas de algunas culturas en relación con el deceso de los cuerpos.
+            b A continuación, se realizará una aproximación a algunos eventos históricos abordados por Mayer (2006) 
+            b-none e interpretados en el presente componente formativo. Se recomienda leer atentamente la información donde se pueden identificar las prácticas de algunas culturas en relación con el deceso de los cuerpos. 
             b ¡Adelante! 
 
     .row.mb-1
@@ -32,19 +32,19 @@
         figure.mb-4
           img(src='@/assets/curso/tema1/icon1.svg', style="width: auto" ,alt='icono que acompaña').mx-auto
         h4.text-center.mb-4 Periodo uno
-        p.text-center No realizaban embalsamamiento como tal, realizaban un tratamiento del cadáver que consistía en poner el cadáver en el suelo para lavarlo y envolverlo en sabanas.
+        p.text-center Surge en Egipto, durante la primera dinastía, alrededor del año 3.000 A.C.
       
       .bg-color3.p-4.mb-4(data-aos="fade-left")
         figure.mb-4
           img(src='@/assets/curso/tema1/icon2.svg', style="width: auto" ,alt='icono que acompaña').mx-auto
         h4.text-center.mb-4 Periodo dos
-        p.text-center No realizaban embalsamamiento como tal, realizaban un tratamiento del cadáver que consistía en poner el cadáver en el suelo para lavarlo y envolverlo en sabanas.
+        p.text-center Este se extiende entre los años 650 y 1861 D.C., en Europa, y se conoce como el periodo de los anatomistas. 
       
       .bg-color4.p-4.mb-4(data-aos="fade-left")
         figure.mb-4
           img(src='@/assets/curso/tema1/icon3.svg', style="width: auto" ,alt='icono que acompaña').mx-auto
         h4.text-center.mb-4 Periodo tres
-        p.text-center Los pies siempre debían ubicarse mirando hacia la puerta. Durante todo el proceso tenían una vela encendida.
+        p.text-center Llamado tiempo moderno, se extiende desde 1861 hasta el día de hoy. 
       
     
     p.mb-5 Profundicemos en el estudio de cada uno de estos periodos.
@@ -136,17 +136,20 @@
         .row.mb-5
           .col-lg-12
             .cajon.color-secundario.p-4.mb-5
-              p.mb-2 
+              p.mb-4
                 b Este proceso tomaba aproximadamente 15 días, 
                 b-none momento en el que la familia reclamaba el cuerpo, lo cosían en una piel de cabra y 
                 b lo trasladaban a las amplias cuevas que se encuentran en la isla. 
-              .cajon-tarjeta
-                .tarjeta-avatar-b.mb-2
-                  .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/tema1/icon7.svg' alt='AvatarTop')
-                  .tarjeta.bg-line4(style='background-color:#fff; align-self: center;')
-                    .p-4
-                      p.mb-0 Los individuos más importantes tenían ataúdes elaborados, que se construían durante el tiempo del embalsamamiento.
+              .row.justify-content-center
+                .col-lg-10
+                  .tarjeta-avatar-b.mb-2
+                    .tarjeta-avatar-b__img
+                      img(src='@/assets/curso/tema1/icon7.svg' alt='AvatarTop')
+                    .tarjeta.bg-line4(style='background-color:#fff; align-self: center;')
+                      .p-4
+                        p.mb-4 Los individuos más importantes tenían ataúdes elaborados, que se construían durante el tiempo del embalsamamiento.
+                        p Si el cuerpo se dejaba secar, el embalsamador hacía guardia para evitar que los pájaros y animales depredadores lo contaminasen. 
+
         
         .row.justify-content-center.mb-5
           .col-lg-12
@@ -347,7 +350,7 @@
               p.mb-4 Las preservaciones del cuerpo humano tienen como propósito experimentar técnicas quirúrgicas y/o científicas sobre el cuerpo humano. 
               p.mb-4 Ejemplo: la preservación que se utiliza para hacer pruebas especiales de cirugía, como las pruebas de impacto (choques vehiculares) y funcionamiento de líquidos.
           
-          .row(numero="3" titulo="Tanatopraxia didáctica ")
+          .row(numero="3" titulo="Tanatopraxia funeraria")
             .col-md-11.mb-4.mb-md-0
               p.mb-4 La intención del embalsamamiento del cuerpo es su preservación transitoria o de corta duración para una disposición final del cuerpo. Para este caso, se aplican varias fórmulas y químicos.
               p.mb-4 Sin embargo, un buen embalsamamiento funerario puede tener una duración de meses e incluso años, dependiendo de factores como:
@@ -408,8 +411,8 @@
               img.imagen-custom1.mx-auto(src='@/assets/curso/tema1/img31.svg', alt='Inactivación y estabilización química de tejidos viscerales', style='width:218px')
           
 
-    p.mb-4 Estos procedimientos genéricos difieren de fondo y en la aplicación para cada caso en particular.
-      b El proceso de tanatopraxia
+    p.mb-4 Estos procedimientos genéricos difieren de fondo y en la aplicación para cada caso en particular. 
+      b El proceso de tanatopraxia 
       b-none logra objetivos de desinfección, conservación y restauración. El embalsamamiento no puede detener completamente el proceso natural de descomposición, pero asegura que sus familiares podrán interactuar con los restos humanos sin ningún riesgo.
     
     p.mb-5 A continuación, se mencionan a profundidad los aspectos fundamentales y su importancia dentro de la tanatopraxia.

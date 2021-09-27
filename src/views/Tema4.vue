@@ -66,19 +66,19 @@
             figure.mb-4
               img(src='@/assets/curso/tema4/icon1.svg', style="width: auto" ,alt='icono que acompaña').mx-auto
             h4.text-center.mb-4 Químicos genéricos
-            p.text-center se refiere a la utilización de formol al 37 %, mezclado con H2O, sin la adición de ningún químico.
+            p.text-center Se refiere a la utilización de formol al 37 %, mezclado con H2O, sin la adición de ningún químico.
           
           .bg-color3.p-4.mb-4(data-aos="flip-left")
             figure.mb-4
               img(src='@/assets/curso/tema4/icon2.svg', style="width: auto" ,alt='icono que acompaña').mx-auto
             h4.text-center.mb-4 Fórmulas básicas:
-            p.text-center son mezclas especiales de formol, alcohol, glicerina y fenol, que se usan en tanatopraxia.
+            p.text-center Son mezclas especiales de formol, alcohol, glicerina y fenol, que se usan en tanatopraxia.
           
           .bg-color4.p-4.mb-4(data-aos="flip-left")
             figure.mb-4
               img(src='@/assets/curso/tema4/icon3.svg', style="width: auto" ,alt='icono que acompaña').mx-auto
             h4.text-center.mb-4 Químicos profesionales para tanatopraxia
-            p.text-center son formulaciones especiales, diseñadas científicamente para cualquier caso especial de tanatopraxia. Estos se clasifican, a su vez, por sus propiedades preservantes y sus contenidos de formol.
+            p.text-center Son formulaciones especiales, diseñadas científicamente para cualquier caso especial de tanatopraxia. Estos se clasifican, a su vez, por sus propiedades preservantes y sus contenidos de formol.
 
         .row.justify-content-center.mb-5
           .col-12
@@ -111,7 +111,7 @@
                 .row.justify-content-around.px-2
                   .col-md-5.mb-4.mb-md-0.align-self-center
                     h4 Químicos de índice alto o endurecedores (entre 29 y 50)
-                    p dan mayor firmeza a los tejidos y son los apropiados para casos difíciles o que necesiten condiciones especiales de preservación.
+                    p Dan mayor firmeza a los tejidos y son los apropiados para casos difíciles o que necesiten condiciones especiales de preservación.
                 
                   .col-md-5
                     figure
@@ -153,7 +153,7 @@
             
           .row(numero="4" titulo="Químicos para casos especiales")
             .col-md-12.mb-4.mb-md-0
-              p son químicos que vienen presentados en polvos y en gel para la aplicación directa en los tejidos, en zonas donde no hay circulación sanguínea. Estos se utilizan especialmente para el tratamiento de gangrenas, úlceras, llagas y puntos de mutilación.
+              p Son químicos que vienen presentados en polvos y en gel para la aplicación directa en los tejidos, en zonas donde no hay circulación sanguínea. Estos se utilizan especialmente para el tratamiento de gangrenas, úlceras, llagas y puntos de mutilación.
 
     .row.justify-content-center.mb-4
       .col-lg-12
@@ -208,13 +208,13 @@
                 .tarjetaImg2
                   figure.mb-3
                     img(src="@/assets/curso/tema3/num3.svg", alt="icono-Numero", style="width:86px;").m-auto
-                  p.mb-0 #[strong  ]
+                  p.mb-0 #[strong Vehículo]
                 .tarjetaTxt2
                   figure.mb-3
                     img(src="@/assets/curso/tema4/img9.jpg", alt="imagen ambiental", style="width:238px;").m-auto
                   .px-3
                     .bg-num3
-                      p.mb-2 #[strong  ]
+                      p.mb-2 #[strong Vehículo]
                       p.mb-0 Es el químico que facilita el movimiento de los químicos en el sistema circulatorio. Son: alcohol etílico y agua destilada.
                     
           .col-auto.mb-4.margen-tarjetaLarga.px-lg-1
@@ -457,7 +457,7 @@
                     img(src='@/assets/curso/tema4/img26.png', alt='imagen de mesa hidraúlica de tijera', style='width: 178px;')
                 .col-auto.mb-4
                   figure
-                    img(src='@/assets/curso/tema4/img27.png', alt='imagen de mesa instrumental', style='width: 178px;')
+                    img(src='@/assets/curso/tema4/img27.jpg', alt='imagen de mesa instrumental', style='width: 178px;')
         
     //figure.mb-4
       img(src='@/assets/curso/tema4/img28.png', alt='', style='width:1200px')
