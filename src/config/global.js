@@ -176,8 +176,8 @@ export default {
     {
       referencia:
         'Resolución 0631 de 2015. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los parámetros y los valores límites máximos permisibles en los vertimientos puntuales a cuerpos de aguas superficiales y a los sistemas de alcantarillado público y se dictan otras disposiciones. Marzo 17 de 2015. ',
-      link:
-        'https://www.minambiente.gov.co/images/normativa/app/resoluciones/d1-res_631_marz_2015.pdf',
+      //link:
+      //'https://www.minambiente.gov.co/images/normativa/app/resoluciones/d1-res_631_marz_2015.pdf',
     },
     {
       referencia: 'SORTEM. (2017). Tanatoplastia. Catálogo General. ',
@@ -231,7 +231,7 @@ export default {
       texto:
         'Ministerio de Salud y Protección Social. (s. f.). Aseguramiento en riesgos laborales. Imprenta Nacional.',
       tipo: 'PDF',
-      descarga: '/downloads/Aseguramiento en riesgos laborales.pdf',
+      descarga: '/downloads/aseguramiento-en-riesgos.pdf',
     },
     {
       texto:

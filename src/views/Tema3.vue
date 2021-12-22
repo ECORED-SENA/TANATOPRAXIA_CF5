@@ -186,7 +186,7 @@
           img.imagen-custom6(src="@/assets/curso/tema3/img9.svg", alt="iamgen ambiental", style="").m-auto
       .col-lg-7.mb-4.align-self-center
         .cajon.color-secundario.p-4.mb-4
-          p.mb-0 Es necesario 
+          p.mb-0 Es necesario tener 
             b en cuenta que no todos los detergentes ni desinfectantes son completamente efectivos; los desinfectantes más recomendados son los de uso quirúrgico.
         p.mb-4 Todo desinfectante que contenga amonio cuaternario, soluciones de yodo, bajas concentraciones de glutaraldehído o concentraciones especializadas de ácido cítrico es, en general, apropiado para la desinfección, tanto de cuerpos como del laboratorio. Otros desinfectantes muy efectivos y de más fácil utilización son el Cidex y el Gerdex, que son de última generación y de muy rápido efecto.
         p.mb-0 Cabe mencionar que los protocolos de bioseguridad, en el sector funerario, no se aplican únicamente al momento del embalsamiento, estos deben considerarse desde la manipulación del cuerpo en el traslado inicial hasta su traslado final. Algunas precauciones para seguir por el personal funerario son:
@@ -233,6 +233,7 @@
       .col-lg-5.mb-4.align-self-center
         figure
           img.imagen-custom3(src="@/assets/curso/tema3/img10.svg", alt="iamgen ambiental", style="").m-auto
+
 
     p.mb-4 Finalmente, se sugiere que identifique los protocolos de bioseguridad de su entorno laboral durante su práctica. Si reconoce los mencionados anteriormente, pueden ayudarle a garantizar que el potencial riesgo de contagio por exposición a un cuerpo fallecido sea el mínimo.
 

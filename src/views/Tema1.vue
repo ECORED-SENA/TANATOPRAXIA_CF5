@@ -106,7 +106,7 @@
         .row.justify-content-center.mb-4
           .col-lg-12
             h4.mb-4 Canarias
-            p.mb-4 En las Islas Canarias, los embalsamadores eran que cuidaban exclusivamente de su propio sexo. El proceso de embalsamamiento consistía en:
+            p.mb-4 En las Islas Canarias, los embalsamadores eran quienes cuidaban exclusivamente de su propio sexo. El proceso de embalsamamiento consistía en:
         
         .row.justify-content-center.mb-5
           .col-lg-5
